@@ -50,7 +50,7 @@ research-agent/
 │   ├── writer_agent.py    # Report synthesis
 │   └── critic_agent.py    # Quality review + revision loop
 └── utils/
-    ├── llm.py             # OpenAI / Claude factory
+    ├── llm.py             # Grok / OpenAI factory
     ├── db.py              # SQLite + CSV loader
     └── memory.py          # ChromaDB vector memory
 ```
