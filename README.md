@@ -15,7 +15,7 @@ User Query → Orchestrator → Search Agent → Data Agent → Writer Agent →
 | Layer | Technology |
 |---|---|
 | Agent Framework | LangGraph (StateGraph) |
-| LLM | GPT-4o or Claude Sonnet |
+| LLM | Grok or GPT-4o or Claude Sonnet |
 | Web Search | Tavily API |
 | Database | SQLite + Pandas |
 | Vector Memory | ChromaDB |
