@@ -1,4 +1,4 @@
-# 🤖 Multi-Agent Deep Research Assistant
+# Multi-Agent Deep Research Assistant
 
 > 5 specialized LangGraph agents that autonomously research, analyze, and report on any topic.
 
