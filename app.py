@@ -222,7 +222,7 @@ with st.sidebar:
                     unsafe_allow_html=True)
 
     st.markdown('<div class="sb-section">Stack</div>', unsafe_allow_html=True)
-    for _tech in ["LangGraph", "GPT-4o / Claude", "Tavily Search",
+    for _tech in ["LangGraph", "Grok / Claude", "Tavily Search",
                   "SQLite + Pandas", "ChromaDB", "Streamlit + Plotly"]:
         st.markdown(f'<div style="font-size:18px;color:#475569;padding:2px 0;">· {_tech}</div>',
                     unsafe_allow_html=True)
