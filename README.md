@@ -1,4 +1,4 @@
-# Multi-Agent Deep Research Assistant
+# 🤖 Multi-Agent Deep Research Assistant
 
 > 5 specialized LangGraph agents that autonomously research, analyze, and report on any topic.
 
@@ -15,7 +15,7 @@ User Query → Orchestrator → Search Agent → Data Agent → Writer Agent →
 | Layer | Technology |
 |---|---|
 | Agent Framework | LangGraph (StateGraph) |
-| LLM | Grok or GPT-4o or Claude Sonnet |
+| LLM | GPT-4o or Claude Sonnet |
 | Web Search | Tavily API |
 | Database | SQLite + Pandas |
 | Vector Memory | ChromaDB |
@@ -29,8 +29,8 @@ git clone https://github.com/YOUR_USERNAME/research-agent
 cd research-agent
 pip install -r requirements.txt
 cp .env.example .env   # add your OPENAI_API_KEY
-python3.11 -m venv .venv311 # change venv to venv311 which have python 3.11
-source .venv311/bin/activate # uses python 3.11 compatible with all the used packages
+python -m venv .venv # change venv to venv311 which have python 3.11
+source .venv/bin/activate # uses python 3.11 compatible with all the used packages
 streamlit run app.py
 ```
 
@@ -50,7 +50,7 @@ research-agent/
 │   ├── writer_agent.py    # Report synthesis
 │   └── critic_agent.py    # Quality review + revision loop
 └── utils/
-    ├── llm.py             # Grok / OpenAI factory
+    ├── llm.py             # OpenAI / Claude factory
     ├── db.py              # SQLite + CSV loader
     └── memory.py          # ChromaDB vector memory
 ```
